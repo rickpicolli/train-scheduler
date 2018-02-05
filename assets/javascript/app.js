@@ -36,7 +36,7 @@ $(document).ready(function() {
 		firstTrainTime = $("#time-input").val().trim();
 		frequency = $("#frequency-input").val().trim();		
 		currentTime = moment();
-		firstTimeConverted = moment(firstTrainTime, "hh:mm").subtract(1, "years").format("X");
+		firstTimeConverted = moment(firstTrainTime, "hh:mm").subtract(1, "years");
 		
 		difference = moment().diff(moment(firstTimeConverted), "minutes");
 		trainRemain = difference % frequency
@@ -77,8 +77,7 @@ database.ref().on("child_added", function(snapshot) {
 		"<td>" + snapshot.val().destination + "</td>" + 
 		"<td>" + snapshot.val().frequency + "</td>" +
 		"<td>" + snapshot.val().nextArrival + "</td>" + 
-		"<td>" + snapshot.val().minutesAway + "</td>" + 
-		"</tr>"	);
+		"<td>" + snapshot.val().minutesAway + "</td>" + "</tr>"	);
 
 
 }, function(errorObject){

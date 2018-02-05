@@ -45,13 +45,13 @@
 
 	color: white !important;
 	text-shadow: black 0.1em 0.1em 0.2em;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 table th {
 	color: gold !important;
 	text-shadow: black 0.1em 0.1em 0.2em;
-	font-size: 15px;
+	font-size: 17px;
 	text-align: center;
 }
 
@@ -59,7 +59,7 @@ table td{
 	text-align: center;
 	color: white !important;
 	text-shadow: black 0.1em 0.1em 0.2em;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 
