@@ -1,25 +1,22 @@
 .jumbotron {
 	margin-top: 20px;
-     color: white !important;
-     text-shadow: black 0.1em 0.1em 0.2em;
-     background-color: rgba(0,0,0,0.3) !important;
-   /*  background: #000 url(../images/header-background.png) top center;*/
-     opacity: 0.5;
-     background-repeat: no-repeat;
-     background-size: contain;
-     min-width: 800px !important;
-     text-align: center !important;
-     width: 100%;
-  /*  height: 100%;*/
+    color: white !important;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    background-color: rgba(0,0,0,0.3) !important;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center !important;
+    width: 100%;
     background-size: cover;
     overflow: hidden;
     position:absolute;
     top:0;
     left:0;
     z-index:1;
-      position:relative;
-  padding-top:50px;
-  padding-bottom:50px;
+    position:relative;
+  	padding-top:50px;
+  	padding-bottom:50px;
 }
 
 
